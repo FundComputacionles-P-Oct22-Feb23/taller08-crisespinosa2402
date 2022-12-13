@@ -1,0 +1,14 @@
+Miniespecificación:
+
+1.  Inicio
+2.  ventas(5), i[0-n]
+3.  dias(5), x(20)[{a-z}, {BS}] <--"Lunes", "Martes", "Miercoles", "Jueves", "Viernes"
+4.  indice, i[0-n]<-- 0
+5.  serie, x(500)[{a-z}, {A-Z}, {BS}] <-- " "
+6.  Para(indice <-- 0, indice <=5, 1) haga
+7.     <<"Ingrese el valor de ventas del día"
+8.     >> ventas[indice]
+9.     serie<-- serie + dias[indice] + "\t" + "$" + ventas[indice] + "\n"
+10. Fin_Para
+11. << serie
+12. Fin
